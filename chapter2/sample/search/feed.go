@@ -7,7 +7,6 @@ import (
 
 //const dataFile  = "C:/work/go/go_path/src/github.com/zhangrgit/go-training/chapter2/sample/data/data.json"
 const dataFile  = "data/data.json"
-
 // Feed 包含我们需要处理的数据源的信息
 type Feed struct {
 	Name string `json:"site"`
